@@ -1,11 +1,6 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>Darkshikar Studios</title>
-        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
-        <meta charset="UTF-8" />
-        <meta name="RM:TCG - COMING SOON" />
-        <meta name="NR - COMING SOON" />
+	<head>
+		<title>Monna & Larry</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="flowtype.js"></script>
@@ -22,8 +17,8 @@
             img.ri {
                 display: block;
                 //position: absolute;
-                max-width: 40%;
-                max-height: 40%;
+                max-width: 100%;
+                max-height: 100%;
                 top: 0;
                 left: 0;
                 right: 0;
@@ -44,15 +39,16 @@
                 //border: red solid thin;
             }
         </style>
-    </head>
-    <body >
-        <center>
+	</head>
+	<body>
+	<center>
             <p>
-                <b><a href="index.html">Home</a></b> | <a href="monna.php">Monna & Larry</a>
+                <a href="index.html">Home</a> | <b><a href="monna.php">Monna & Larry</a></b>
             </p>
-        </center>    
-        <div class="container">
-            <img class="ri" src="GEARS_v4-test2_.gif" alt="" />
+    </center>
+		<center><h1>Monna & Larry - Chapter 1</h1></center>
+		<div class="container">
+            <img class="ri" src="Comic1.png" alt="" />
             <p class="footer">Our official social media - Twitter: <a target="_blank" href="https://twitter.com/Darkshikar">@Darkshikar</a>,
                 Facebook: <a target="_blank" href="https://www.facebook.com/DarkshikarStudios/">Darkshikar Studios</a>, 
                 and the YouTube: <a target="_blank" href="https://www.youtube.com/channel/UC79v5Wmmjq98IC2Vkwzrzhw">Darkshikar Studios</a>.
@@ -69,5 +65,6 @@
          fontRatio : 30
         });
         </script>
-    </body>
+
+	</body>
 </html>
